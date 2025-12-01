@@ -1,0 +1,37 @@
+# ---- Build & 编译输出 ----
+build/
+bin/
+Debug/
+Release/
+x64/
+*.exe
+*.obj
+*.o
+*.pdb
+*.log
+
+# ---- 资源文件（自主编写的Shader除外）
+media/Model
+media/Texture
+
+# ---- CMake 生成文件 ----
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# ---- VS / VSCode 配置 ----
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# ---- 第三方库目录：不再提交 ----
+external/
+third_party/
+
+# ---- 杂项 ----
+.DS_Store
+Thumbs.db
