@@ -90,9 +90,9 @@ int main()
     Model Backpack("Model/backpack/backpack.obj");
     // 加载储存于Model文件夹中的.obj模型
 
-    Shader shaderGeometryPass("Shader/g_buffer.vs","Shader/g_buffer.fs");
-    Shader shaderLightingPass("Shader/deferred.vs","Shader/deferred.fs");
-    Shader shaderLightBox    ("Shader/light_box.vs","Shader/light_box.fs");
+    Shader shaderGeometryPass("Shader/03_Deferred_Rendering/g_buffer.vs","Shader/03_Deferred_Rendering/g_buffer.fs");
+    Shader shaderLightingPass("Shader/03_Deferred_Rendering/deferred.vs","Shader/03_Deferred_Rendering/deferred.fs");
+    Shader shaderLightBox    ("Shader/03_Deferred_Rendering/light_box.vs","Shader/03_Deferred_Rendering/light_box.fs");
 
     std::vector<glm::vec3> objectPositions;
     // 动态数组：储存物体空间位置[传递至Model变换矩阵中的]

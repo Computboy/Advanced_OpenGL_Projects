@@ -81,8 +81,8 @@ add_gl_example(02_FrameBufferObject
     "${CMAKE_SOURCE_DIR}/src/02_FrameBufferObject"
 )
 
-add_gl_example(03_AdvancedLights
-    "${CMAKE_SOURCE_DIR}/src/03_AdvancedLights"
+add_gl_example(03_Deferred_Rendering
+    "${CMAKE_SOURCE_DIR}/src/03_Deferred_Rendering"
 )
 
 # add_gl_example(04_AdvancedData_GLSL
