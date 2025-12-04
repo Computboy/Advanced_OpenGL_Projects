@@ -82,9 +82,9 @@ int main(void) {
     glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);
 
     // 构建并编译着色器
-    Shader UsualShader("Shader/NormalShader.vs", "Shader/NormalShader.fs");
-    Shader SingleColor("Shader/NormalShader.vs", "Shader/SingleColor.fs");
-    Shader ScreenShader("Shader/ScreenShader.vs", "Shader/ScreenShader.fs");
+    Shader UsualShader("Shader/02_FrameBufferObject/NormalShader.vs", "Shader/02_FrameBufferObject/NormalShader.fs");
+    Shader SingleColor("Shader/02_FrameBufferObject/NormalShader.vs", "Shader/02_FrameBufferObject/SingleColor.fs");
+    Shader ScreenShader("Shader/02_FrameBufferObject/ScreenShader.vs", "Shader/02_FrameBufferObject/ScreenShader.fs");
     // 最后的着色器：将离屏渲染的结果进行后期处理，输出到Screen_Quad上，于默认帧缓冲中显示
 
     // 盒子的顶点坐标及纹理坐标

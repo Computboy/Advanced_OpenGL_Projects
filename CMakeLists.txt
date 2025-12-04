@@ -85,6 +85,7 @@ add_gl_example(03_Deferred_Rendering
     "${CMAKE_SOURCE_DIR}/src/03_Deferred_Rendering"
 )
 
-# add_gl_example(04_AdvancedData_GLSL
-#     "${CMAKE_SOURCE_DIR}/src/04_AdvancedData_GLSL"
-# )
+add_gl_example(04_SSAO
+    "${CMAKE_SOURCE_DIR}/src/04_SSAO"
+)
+

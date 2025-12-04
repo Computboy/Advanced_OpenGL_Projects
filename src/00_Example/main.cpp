@@ -93,8 +93,8 @@ int main()
     glEnable(GL_DEPTH_TEST);
 
     // 一句话构建并编译自己的着色器
-    Shader ModelShader("Shader/Shader.vs", "Shader/Shader.fs");
-    Shader skyboxShader("Shader/SkyBox.vs", "Shader/SkyBox.fs");
+    Shader ModelShader("Shader/00_Example/Shader.vs", "Shader/00_Example/Shader.fs");
+    Shader skyboxShader("Shader/00_Example/SkyBox.vs", "Shader/00_Example/SkyBox.fs");
 
     // 加载网格与模型
     Model ourModel("Model/hotdog_car/HotDog_Car.obj");

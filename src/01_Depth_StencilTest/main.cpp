@@ -79,8 +79,8 @@ int main(void) {
     glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);
 
     // 构建并编译着色器
-    Shader UsualShader("Shader/NormalShader.vs", "Shader/NormalShader.fs");
-    Shader SingleColor("Shader/NormalShader.vs", "Shader/SingleColor.fs");
+    Shader UsualShader("Shader/01_Depth_StencilTest/NormalShader.vs", "Shader/01_Depth_StencilTest/NormalShader.fs");
+    Shader SingleColor("Shader/01_Depth_StencilTest/NormalShader.vs", "Shader/01_Depth_StencilTest/SingleColor.fs");
 
     // 盒子的顶点坐标及纹理坐标
     float cubeVertices[] = {
