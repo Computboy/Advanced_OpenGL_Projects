@@ -23,4 +23,4 @@ void main()
     Normal = normalMatrix * (invertedNormals ? -aNormal : aNormal);
     
     gl_Position = projection * viewPos;
-}s
+}
