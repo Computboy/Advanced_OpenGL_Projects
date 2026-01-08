@@ -28,7 +28,7 @@ const unsigned int SCR_WIDTH = 1280;
 const unsigned int SCR_HEIGHT = 720;
 
 // 设置摄像机的初始配置属性
-float StandardYAxis = -0.0f;  // [Y轴基准设定]
+float StandardYAxis = 0.0f;  // [Y轴基准设定]
 Camera camera(glm::vec3(0.0f, StandardYAxis + 0.5f, 4.0f));
 
 float lastX = SCR_WIDTH / 2.0f;
